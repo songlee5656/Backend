@@ -25,7 +25,7 @@ import com.smhrd.player.service.PlayerService;
 
 @RestController  
 // 리액트 서버로 데이터만 응답
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("http://43.200.171.213:3000")
 // 웹 페이지의 제한된 자원을 외부 도메인에서 접근할수 있도록 허용해주는 매커니즘
 // 서로 다른 도메인에서 리소스를 공유하는 방식
 public class PlayerController {
